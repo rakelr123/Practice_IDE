@@ -2,6 +2,7 @@ package PracticeForGitHUB;
 
 public class DemoForGIT {
 	public static void reverseEachWordInString(String StrGiven) {
+		System.out.println("Reversing each word of the string");
 		System.out.println("The given string is: " + StrGiven);
 		String[] each_words = StrGiven.split(" ");
 		String revString = "";
@@ -18,4 +19,5 @@ public class DemoForGIT {
 	public static void main(String[] args) {
 		reverseEachWordInString("This is a test string");
 	}
+
 }
